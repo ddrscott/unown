@@ -1,3 +1,4 @@
+require 'middleman-gh-pages'
 
 desc 'images'
 task :images do

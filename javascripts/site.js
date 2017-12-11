@@ -7,12 +7,12 @@
         var c = letters.charAt(x).toLowerCase();
         if (c == '!') {
           c = 'exclamation';
-          tags += '<img src="/images/unowns/201-exclamation.png" alt="unown-exclamation">'
+          tags += '<img src="images/unowns/201-exclamation.png" alt="unown-exclamation">'
         } else if (c == '?') {
           c = 'question';
-          tags += '<img src="/images/unowns/201-question.png" alt="unown question">'
+          tags += '<img src="images/unowns/201-question.png" alt="unown question">'
         } else if (c >= 'a' && c <= 'z') {
-          tags += '<img src="/images/unowns/201-' + c + '.png" alt="unown ' + c + '">'
+          tags += '<img src="images/unowns/201-' + c + '.png" alt="unown ' + c + '">'
         } else {
           tags += c
         }

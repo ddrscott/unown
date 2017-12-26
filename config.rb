@@ -6,7 +6,8 @@ activate :autoprefixer do |prefix|
 end
 
 activate :livereload
-
+set :relative_links, true
+set :http_prefix, './'
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 
